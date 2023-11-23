@@ -5,27 +5,31 @@ import {motion, useScroll, useSpring, useTransform} from 'framer-motion';
 const items = [
   {
     id: 1,
-    title: 'React Commerce',
-    img: 'https://images.pexels.com/photos/12059444/pexels-photo-12059444.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load',
-    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci alias, illum facilis fugiat cupiditate rem quia debitis tempora itaque quo doloremque excepturi ex atque quam dolores, beatae quibusdam repellat dicta.',
+    title: 'React MapPin App',
+    img: '/Mappin.PNG',
+    desc: 'Aplicatie care permite unui utilizator logat la aplicatie sa plaseze pe o harta diverse puncte de interes vizibile si celorlalti utilizatori. Punctul de interes este editabil doar de catre utilizatorul care l-a realizat. .',
+    link: 'https://frontend-mappin.onrender.com/',
   },
   {
     id: 2,
     title: 'Next.js Blog',
-    img: 'https://images.pexels.com/photos/15839628/pexels-photo-15839628/free-photo-of-tabel-mic-dejun-ine-in-maini-cana-de-cafea.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load',
+    img: '/blog.png',
     desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci alias, illum facilis fugiat cupiditate rem quia debitis tempora itaque quo doloremque excepturi ex atque quam dolores, beatae quibusdam repellat dicta.',
+    link: 'https://frontend-blog-tan.vercel.app/',
   },
   {
     id: 3,
     title: 'Vanilla JS App',
     img: 'https://images.pexels.com/photos/18624571/pexels-photo-18624571/free-photo-of-seara-bokeh-haina-palton.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load',
     desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci alias, illum facilis fugiat cupiditate rem quia debitis tempora itaque quo doloremque excepturi ex atque quam dolores, beatae quibusdam repellat dicta.',
+    link: '/#',
   },
   {
     id: 4,
     title: 'Music Appe',
     img: 'https://images.pexels.com/photos/9864565/pexels-photo-9864565.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load',
     desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci alias, illum facilis fugiat cupiditate rem quia debitis tempora itaque quo doloremque excepturi ex atque quam dolores, beatae quibusdam repellat dicta.',
+    link: '/#',
   },
 ];
 
@@ -48,7 +52,11 @@ const Single = ({item}) => {
           <motion.div className='textContainer' style={{y}}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button className='singleButton'>Vezi demo</button>
+            <button className='singleButton'>
+              <a href={item.link} rel='noreferrer' target={'_blank'}>
+                Vezi demo
+              </a>
+            </button>
           </motion.div>
         </div>
       </div>
