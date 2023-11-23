@@ -91,6 +91,24 @@
           padding: 10px;
         }
       }
+
+      .contactSucces {
+        align-self: center;
+        text-align: center;
+        font-weight: bolder;
+        font-size: larger;
+        margin-top: 15px;
+        color: greenyellow;
+      }
+
+      .contactError {
+        align-self: center;
+        text-align: center;
+        font-weight: bolder;
+        font-size: larger;
+        margin-top: 15px;
+        color: hotpink;
+      }
     }
   }
 }

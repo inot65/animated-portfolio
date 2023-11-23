@@ -126,8 +126,12 @@ const Contact = () => {
           />
           <textarea rows={8} placeholder='Mesajul tău' name='message' />
           <button>Submit</button>
-          {error && <span>Error</span>}
-          {success && <span>Success</span>}
+          {error && (
+            <span className='contactError'>Ceva nu a mers bine...</span>
+          )}
+          {success && (
+            <span className='contactSucces'>Mesajul a fost trimis!</span>
+          )}
         </motion.form>
       </div>
     </motion.div>
