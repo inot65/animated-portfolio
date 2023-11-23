@@ -12,9 +12,9 @@ const items = [
   },
   {
     id: 2,
-    title: 'Next.js Blog',
+    title: 'React Blog',
     img: '/blog.png',
-    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci alias, illum facilis fugiat cupiditate rem quia debitis tempora itaque quo doloremque excepturi ex atque quam dolores, beatae quibusdam repellat dicta.',
+    desc: 'Aplicatie de blogging realizata in react. Orice utilizator inregistrat poate publica postari insotite de o imagine reprezentativa. Deasemenea isi poate modifica profilul, schimba parola, etc. Postarile personale pot fi editate, sau sterse. Se pot filtra postarile dupa utilizatorul care le-a postat, sau dupa categoriile in care se afla. Clik pe autor in pagina HOME si se vor afisa doar postarile acelui user. Click pe o categorie din cele afisate in dreapta si se vor afisa doar postarile din acea categorie.',
     link: 'https://frontend-blog-tan.vercel.app/',
   },
   {
