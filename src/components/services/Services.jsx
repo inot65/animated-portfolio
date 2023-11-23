@@ -67,7 +67,13 @@ const Services = () => {
             <br />
             Apelează-mă cu încredere!
           </p>
-          <button>Contact</button>
+          <button
+            onClick={() => {
+              window.location.replace('#Contact');
+            }}
+          >
+            Contact
+          </button>
         </motion.div>
         <motion.div
           className='box'
@@ -80,7 +86,13 @@ const Services = () => {
             <br />
             Puteți oricând apela la serviciile mele!
           </p>
-          <button>Contact</button>
+          <button
+            onClick={() => {
+              window.location.replace('#Contact');
+            }}
+          >
+            Contact
+          </button>
         </motion.div>
         <motion.div
           className='box'
@@ -93,7 +105,13 @@ const Services = () => {
             <br />
             Vă stau la dispoziție oricând cu idei noi de conținut!
           </p>
-          <button>Contact</button>
+          <button
+            onClick={() => {
+              window.location.replace('#Contact');
+            }}
+          >
+            Contact
+          </button>
         </motion.div>
         <motion.div
           className='box'
@@ -105,7 +123,13 @@ const Services = () => {
             stilul pe absolut toate paginile aplicației dvs.? <br />
             Poți apela oricând la serviciile mele!
           </p>
-          <button>Contact</button>
+          <button
+            onClick={() => {
+              window.location.replace('#Contact');
+            }}
+          >
+            Contact
+          </button>
         </motion.div>
       </motion.div>
     </motion.div>

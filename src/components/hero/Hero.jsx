@@ -65,11 +65,9 @@ const Hero = () => {
   }, [butonProiecte, butonContact]);
 
   const handleLinkProiecte = () => {
-    console.log('Sar la portofoliu !');
     window.location.replace('#Portofoliu');
   };
   const handleLinkContact = () => {
-    console.log('Sar la portofoliu !');
     window.location.replace('#Contact');
   };
 
@@ -114,9 +112,9 @@ const Hero = () => {
       >
         Creator de continut, proiectant de aplicatii, branding
       </motion.div>
-      <div className='imageContainer'>
-        <img src='/hero.png' alt='' />
-      </div>
+      {/* <div className='imageContainer'>
+        <img src='/silueta.png' alt='' />
+      </div> */}
     </div>
   );
 };
