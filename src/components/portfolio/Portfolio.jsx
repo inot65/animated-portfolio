@@ -14,22 +14,15 @@ const items = [
     id: 2,
     title: 'React Blog',
     img: '/blog.png',
-    desc: 'Aplicatie de blogging realizata in react. Orice utilizator inregistrat poate publica postari insotite de o imagine reprezentativa. Deasemenea isi poate modifica profilul, schimba parola, etc. Postarile personale pot fi editate, sau sterse. Se pot filtra postarile dupa utilizatorul care le-a postat, sau dupa categoriile in care se afla. Clik pe autor in pagina HOME si se vor afisa doar postarile acelui user. Click pe o categorie din cele afisate in dreapta si se vor afisa doar postarile din acea categorie.',
+    desc: 'Aplicatie de blogging realizata in React. Orice utilizator inregistrat poate publica postari insotite de o imagine reprezentativa. Deasemenea isi poate modifica profilul, schimba parola, etc. Postarile personale pot fi editate, sau sterse. Se pot filtra postarile dupa utilizatorul care le-a postat, sau dupa categoriile in care se afla. Clik pe autor in pagina HOME si se vor afisa doar postarile acelui user. Click pe o categorie din cele afisate in dreapta si se vor afisa doar postarile din acea categorie.',
     link: 'https://frontend-blog-tan.vercel.app/',
   },
   {
     id: 3,
-    title: 'Vanilla JS App',
-    img: 'https://images.pexels.com/photos/18624571/pexels-photo-18624571/free-photo-of-seara-bokeh-haina-palton.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load',
-    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci alias, illum facilis fugiat cupiditate rem quia debitis tempora itaque quo doloremque excepturi ex atque quam dolores, beatae quibusdam repellat dicta.',
-    link: '/#',
-  },
-  {
-    id: 4,
-    title: 'Music Appe',
-    img: 'https://images.pexels.com/photos/9864565/pexels-photo-9864565.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load',
-    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci alias, illum facilis fugiat cupiditate rem quia debitis tempora itaque quo doloremque excepturi ex atque quam dolores, beatae quibusdam repellat dicta.',
-    link: '/#',
+    title: 'Chat JS App',
+    img: '',
+    desc: 'Aplicatia de chat realizata in React. Orice utilizitor poate posta in aplicatie diverse mesaje insotite de o imagine, poate sa-si schimbe profilul, poate purta o discutie de tio chat cu un prieten. Este permisa inregistrarea de noi utilizatori',
+    link: 'https://client-chat-tn8z.onrender.com',
   },
 ];
 

@@ -46,7 +46,7 @@ pentru a popula un folder denumit 'node-module' cu dependintele necesare
 
 Pentru a porni site-ul:
 
-npm run dev
+# npm run dev
 
 
 
@@ -126,3 +126,6 @@ foloseste si useTransform, un alt hook care face o mapare intre un set de valori
 
  
 
+Postat pe https://site-portofoliu.onrender.com/ !!!
+
+lipseste o poza cu mine...
