@@ -20,7 +20,7 @@ const items = [
   {
     id: 3,
     title: 'Chat JS App',
-    img: '',
+    img: '/public/ChatApp.PNG',
     desc: 'Aplicatia de chat realizata in React. Orice utilizitor poate posta in aplicatie diverse mesaje insotite de o imagine, poate sa-si schimbe profilul, poate purta o discutie de tio chat cu un prieten. Este permisa inregistrarea de noi utilizatori',
     link: 'https://client-chat-tn8z.onrender.com',
   },
